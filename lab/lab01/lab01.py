@@ -59,10 +59,12 @@ def double_eights(n):
         if(n%10 == 8):
             cnt+=1
         else:
-            cnt = 0
-            ans = max(ans, cnt)
+            if(cnt == 2):
+                break
+            else:
+                cnt=0
         n //= 10
-    if(ans == 2):
+    if(cnt == 2):
         return True
     else:
         return False
