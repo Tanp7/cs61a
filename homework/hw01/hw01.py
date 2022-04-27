@@ -101,12 +101,15 @@ def with_if_function():
 
 def cond():
     "*** YOUR CODE HERE ***"
+    return False;
 
 def true_func():
     "*** YOUR CODE HERE ***"
+    print(42)
 
 def false_func():
     "*** YOUR CODE HERE ***"
+    print(47)
 
 
 def hailstone(n):
@@ -125,4 +128,15 @@ def hailstone(n):
     7
     """
     "*** YOUR CODE HERE ***"
+    assert n > 0 and isinstance(n, int), "The input to hailstone() must be a positive integer."
+    steps = 1
+    while n != 1:
+        print(n)
+        steps += 1
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = n * 3 + 1
+    print(1)
+    return steps
 
