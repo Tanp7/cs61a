@@ -120,11 +120,10 @@ test = {
           >>> one_thousand = print_lambda(1000)
           1000
           >>> one_thousand
-          358b0ae001277273d8cd480ce5dbfb82
-          # locked
+          Nothing
           """,
           'hidden': False,
-          'locked': True
+          'locked': False
         }
       ],
       'scored': False,
