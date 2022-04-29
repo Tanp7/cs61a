@@ -15,8 +15,7 @@ test = {
           >>> steven = lambda x: x
           >>> stewart = even(steven)
           >>> stewart
-          4f02258d689b15b516174b381ad2aef8
-          # locked
+          Function
           >>> stewart(61)
           fca276f013f718468273f07db52f3ab7
           # locked
